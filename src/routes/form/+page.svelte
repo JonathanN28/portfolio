@@ -60,9 +60,9 @@
     .to-block {
         display: block;
     }
-    /*.to-inline {*/
-    /*    display: inline;*/
-    /*}*/
+    .to-inline {
+        display: inline;
+    }
 
 
     .align-center {
