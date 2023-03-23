@@ -6,11 +6,13 @@
 	<section>
 		<div class="form-container">
 			<form id="survey-form">
+
 				<fieldset>
 					<label class="to-block" id="name-label">Full Name: <input class="to-block" id="name" name="name" type="text" placeholder="Full name like 'John Doe'" autocomplete="" required></label>
 					<label class="to-block" id="email-label">Email: <input class="to-block" id="email" name="email" type="email" placeholder="Email with @ symbol like johndoe@gmail.com" required></label>
 					<label class="to-block" id="number-label">I am <input id="number" name="age" type="number" min="5" max="150" placeholder="5-150" required> years old.</label>
 				</fieldset>
+
 				<fieldset>
 					<label for="dropdown"> Choose your game for this survey:
 						<select id="dropdown" name="game" required>
@@ -28,11 +30,8 @@
 					<label for="3"><input id="3" name="opinion" value="comp" type="radio"> More competitive</label>
 				</fieldset>
 
-
 				<fieldset>
 					<p>How often do you play? (Select all that apply to you)</p>
-
-
 					<label for="4"><input id="4" name="frequency" value="1d" type="checkbox"> Everyday</label>
 					<label for="5"><input id="5" name="frequency" value="1w" type="checkbox"> Once a week</label>
 					<label for="6"><input id="6" name="frequency" value="1m" type="checkbox"> Once a month</label>
@@ -46,7 +45,6 @@
 					<label for="12"><input id="12" name="days" value="2" type="checkbox"> Weekdays</label>
 				</fieldset>
 
-
 				<fieldset>
 					<label for="comments">Any other comments or issues? <textarea class="to-block" id="comments" name="comments" placeholder="I enjoy the games you co-developed with another group."></textarea></label>
 				</fieldset>
@@ -57,13 +55,14 @@
 </div>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@400;700&display=swap');
     /* Utility classes */
     .to-block {
         display: block;
     }
-    .to-inline {
-        display: inline;
-    }
+    /*.to-inline {*/
+    /*    display: inline;*/
+    /*}*/
 
 
     .align-center {
@@ -76,12 +75,13 @@
         background-color: #235789;
         font-size: 25px;
         color: #0C1115;
-        background-image: url("https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
+        background-image:
+		url("https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
         background-repeat: no-repeat;
         background-size: 100%;
         background-blend-mode: overlay;
     }
-    p, label{
+    p, label {
         font-family: 'Hind Madurai', sans-serif;
     }
     section:first-child p {
@@ -98,15 +98,15 @@
         font-size: 2.5rem;
         font-family: 'Skranji', cursive;
     }
-    h3 {
-        font-size: 1.5rem;
-        font-family: 'Skranji', cursive;
-    }
+    /*h3 {*/
+    /*    font-size: 1.5rem;*/
+    /*    font-family: 'Skranji', cursive;*/
+    /*}*/
 
 
     hr {
         background-color: #F3F4F5;
-        height: 2px;
+        height: 0.25rem;
         border: 1px solid #F3F4F5;
         border-radius: 2px;
     }
@@ -170,7 +170,7 @@
 
 
     input {
-        height: 1.5rem;
+        height: 1.5em;
         font-size: 1em;
     }
     select {
