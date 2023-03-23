@@ -1,4 +1,4 @@
 <!--This is your footer-->
 <footer>
-	This is a footer!
+	<p>&copy 2023</p>
 </footer>
