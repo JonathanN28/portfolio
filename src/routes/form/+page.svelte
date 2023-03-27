@@ -55,15 +55,31 @@
 </div>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
     /* Utility classes */
     .to-block {
         display: block;
     }
-    .to-inline {
+    /*.to-inline {
         display: inline;
-    }
+    }*/
 
+    /* Revert to original from Tailwind CSS default margin of 0 */
+		/* blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre */
+    hr, p, input, select {
+        margin: revert;
+    }
+    /* Revert to original from Tailwind CSS default padding of 0 */
+    fieldset {
+				padding: revert;
+		}
+    /* Revert to original from Tailwind CSS default font-family and color */
+		input, select, textarea {
+				font-family: Arial, Helvetica, sans-serif;
+		}
+    ::placeholder {
+				color: rgb(118, 118, 118);
+		}
 
     .align-center {
         text-align: center;
@@ -94,14 +110,14 @@
         font-family: 'Skranji', cursive;
         color: #F3F4F5;
     }
-    h2 {
+    /*h2 {
         font-size: 2.5rem;
         font-family: 'Skranji', cursive;
     }
-    /*h3 {*/
-    /*    font-size: 1.5rem;*/
-    /*    font-family: 'Skranji', cursive;*/
-    /*}*/
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'Skranji', cursive;
+    }*/
 
 
     hr {

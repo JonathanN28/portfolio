@@ -1,12 +1,14 @@
-<!-- This is a template for your tribute page -->
 <script>
   // import Header from '$lib/components/header.svelte';
 	import src from '$lib/assets/marcel-marceau.jpg';
 </script>
+
 <!--<Header/>-->
 <!--&lt;!&ndash; Your content goes here &ndash;&gt;-->
 <!--<Footer/>-->
+
 <h2>Marcel Marceau</h2>
+
 <img {src} alt="Marcel Marceau in a chair facing towards the reader" />
 <style>
 	img {
