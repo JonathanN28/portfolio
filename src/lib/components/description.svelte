@@ -14,6 +14,9 @@
 </div>
 
 <style>
+		p {
+				font-size: 20px;
+		}
 		div {
 				background-color: rgb(255, 130, 130);
 				width: 14%;
