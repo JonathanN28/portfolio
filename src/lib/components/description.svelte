@@ -5,30 +5,30 @@
 
 <div>
 {#if date == ''}
-<p class='summary'>{summary}</p>
+<p class='summary'>&bullet; {summary}</p>
 {:else}
 <p class='date'>{date}</p>
 <hr>
-<p class='summary'>{summary}</p>
+<p class='summary'>&bullet; {summary}</p>
 {/if}
 </div>
 
 <style>
 		p {
-				font-size: 20px;
+				font-size: 1.25rem;
 		}
 		div {
-				background-color: rgb(255, 130, 130);
-				width: 14%;
-				padding: 10px;
-				border-radius: 20px;
-				border: rgb(255, 100, 100) 10px outset;
+				background-color: rgb(230, 230, 240);
+				width: 300px;
+				padding: 20px;
+				/*border-radius: 20px;*/
+				/*border: 10px outset rgb(150, 150, 180);*/
 		}
 		hr {
 				border: none;
 				border-radius: 1em;
 				height: 0.25em;
-				background-color: rgb(230, 100, 100);
+				background-color: rgb(180, 180, 200);
 				margin-top: 5px;
 				margin-bottom: 5px;
 		}
@@ -36,7 +36,7 @@
 				text-align: center;
 		}
 		.summary {
-				text-align: center;
+				text-align: left;
 		}
 
 </style>
