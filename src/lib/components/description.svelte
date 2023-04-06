@@ -25,6 +25,7 @@
 				padding: 20px;
 				/*border-radius: 20px;*/
 				/*border: 10px outset rgb(150, 150, 180);*/
+
 		}
 		hr {
 				border: none;
