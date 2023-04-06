@@ -14,8 +14,10 @@
 </div>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@500&display=swap');
 		p {
-				font-size: 1.25rem;
+				font-family: 'Raleway', sans-serif;
+				font-size: 1.5rem;
 		}
 		div {
 				background-color: rgb(230, 230, 240);
