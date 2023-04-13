@@ -2,6 +2,7 @@
 	import src from "$lib/assets/Jonathan.jpg";
 	import src2 from "$lib/assets/Jonathan2.png";
 	import src3 from "$lib/assets/Jonathan3.png";
+	import src4 from "$lib/assets/Jonathan4.png";
 </script>
 
 <header
@@ -9,15 +10,15 @@
 	<div class="container flex items-center justify-center py-4 gap-x-8">
 		<a href="/">
 			<!-- Add svg image -->
-			<img src={src} alt="Logo" class="max-h-12" />
+			<img src={src4} alt="Logo" class="max-h-12" />
 		</a>
 		<nav>
 			<ul class="flex items-center justify-center gap-x-2">
-				<li><a href="/" class="px-4 py-2 hover:text-gray-400">Home</a></li>
-				<li><a href="/form" class="px-4 py-2 hover:text-gray-400">Form</a></li>
-				<li><a href="/tribute" class="px-4 py-2 hover:text-gray-400">Tribute
+				<li><a href="/" class="px-4 py-2 hover:text-gray-400 text-2xl">Home</a></li>
+				<li><a href="/form" class="px-4 py-2 hover:text-gray-400 text-2xl">Form</a></li>
+				<li><a href="/tribute" class="px-4 py-2 hover:text-gray-400 text-2xl">Tribute
 				</a></li>
-				<li><a href="/product" class="px-4 py-2 hover:text-gray-400">Product
+				<li><a href="/product" class="px-4 py-2 hover:text-gray-400 text-2xl">Product
 				</a></li>
 
 			</ul>
@@ -26,11 +27,11 @@
 </header>
 
 <!-- Tribute-themed -->
-<style>
-	.backgroundcolor {
-		background-color: #48485D;
-	}
-</style>
+<!--<style>-->
+<!--	.backgroundcolor {-->
+<!--		background-color: #48485D;-->
+<!--	}-->
+<!--</style>-->
 
 <!-- Style guide-themed -->
 <!--<style>-->
@@ -49,3 +50,15 @@
 <!--				background-color: #f0c14f;-->
 <!--		}-->
 <!--</style>-->
+
+<!-- Color palette-themed -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@500&display=swap');
+		a {
+				font-family: Raleway, sans-serif;
+				color: rgb(247, 247, 255);
+		}
+		.backgroundcolor {
+				background-color: rgb(62, 75, 88);
+		}
+</style>

@@ -18,9 +18,10 @@
 		p {
 				font-family: 'Raleway', sans-serif;
 				font-size: 1.5rem;
+				color: rgb(62, 75, 88);
 		}
 		div {
-				background-color: rgb(230, 230, 240);
+				background-color: rgb(247, 247, 255);
 				width: 300px;
 				padding: 20px;
 				/*border-radius: 20px;*/
