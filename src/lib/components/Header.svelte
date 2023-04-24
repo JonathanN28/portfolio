@@ -10,7 +10,7 @@
 	<div class="container flex items-center justify-center py-4 gap-x-8">
 		<a href="/">
 			<!-- Add svg image -->
-			<img src={src4} alt="Logo" class="max-h-12" />
+			<img src={src2} alt="Logo" class="max-h-12" />
 		</a>
 		<nav>
 			<ul class="flex items-center justify-center gap-x-2">
@@ -53,12 +53,12 @@
 
 <!-- Color palette-themed -->
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		a {
-				font-family: Raleway, sans-serif;
-				color: rgb(247, 247, 255);
+				font-family: 'Hind Madurai', sans-serif;
+				color: #F3F4F5;
 		}
 		.backgroundcolor {
-				background-color: rgb(62, 75, 88);
+        background-color:#ea3f45;
 		}
 </style>

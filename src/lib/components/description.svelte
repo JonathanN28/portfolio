@@ -14,14 +14,14 @@
 </div>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		p {
-				font-family: 'Raleway', sans-serif;
+				font-family: 'Hind Madurai', sans-serif;
 				font-size: 1.5rem;
-				color: rgb(62, 75, 88);
+				color: #0c1115;
 		}
 		div {
-				background-color: rgb(247, 247, 255);
+				background-color: #F3F4F5;
 				width: 300px;
 				padding: 20px;
 				/*border-radius: 20px;*/
@@ -32,7 +32,7 @@
 				border: none;
 				border-radius: 1em;
 				height: 0.25em;
-				background-color: rgb(180, 180, 200);
+				background-color: #ea3f45;
 				margin-top: 5px;
 				margin-bottom: 5px;
 		}
