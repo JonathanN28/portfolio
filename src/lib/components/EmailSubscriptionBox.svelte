@@ -1,4 +1,45 @@
 <script>
-	import src from '$lib/assets/kobby-mendez-UOl_IN96w0M-unsplash.jpg';
+	import subImg from '$lib/assets/kobby-mendez-UOl_IN96w0M-unsplash.jpg';
 </script>
-<img src={src} alt="A golden pineapple"/>
+
+<section
+	class='flex items-center justify-center h-full p-10 bg-zinc-700'>
+	<div class='bg-zinc-800 p-2 mx-6 rounded-2xl emailBox'>
+		<div class='flex flex-col md:flex-row rounded-l-xl'>
+			<img src={subImg} alt='boat on a lake'
+					 class='object-fit rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />
+			<div class='p-6 md:p-12'>
+				<h2
+					class='font-serif text-xl font-medium text-center text-white md:text-left'> Receive 99% discounts on gold bars</h2>
+				<p
+					class='max-w-xs leading-5 tracking-wide text-center text-white md:text-left'> Obtain daily coupon codes from 0 to 100% discount for purchasing gold bars. Sign up with your email.</p>
+				<div
+					class='flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0'>
+					<input type='text' placeholder='Enter your email address'
+								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none'/>
+					<button
+						class='px-5 py-3 text-xs rounded-b-xl md:rounded-r-xl md:rounded-l-none text-zinc-800 bg-lime-500 transform hover:scale-105 hover:rounded-xl hover:bg-lime-700 hover:text-white duration-500'> Sign up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	section {
+			background-color: #0C1115;
+	}
+	.emailBox {
+			background-color: #F3F4F5;
+	}
+	h2, p {
+			color: #0C1115;
+	}
+	button {
+			background-color: #EA3F45;
+			color: #F3F4F5;
+	}
+	button:hover {
+      background-color: #C4393CFF;
+	}
+</style>
