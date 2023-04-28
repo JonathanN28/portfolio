@@ -7,18 +7,22 @@
 
 <header
 	class="backgroundcolor text-white flex place-content-center min-w-full sm:px-5">
-	<div class="container flex items-center justify-center py-4 gap-x-8">
+	<div
+		class="container flex items-center justify-center py-4 gap-x-8">
 		<a href="/">
 			<!-- Add svg image -->
 			<img src={src2} alt="Logo" class="max-h-12" />
 		</a>
 		<nav>
 			<ul class="flex items-center justify-center gap-x-2">
-				<li><a href="/" class="px-4 py-2 hover:text-gray-400 text-2xl">Home</a></li>
-				<li><a href="/form" class="px-4 py-2 hover:text-gray-400 text-2xl">Form</a></li>
-				<li><a href="/tribute" class="px-4 py-2 hover:text-gray-400 text-2xl">Tribute
+				<li><a href="/"
+							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Home
 				</a></li>
-				<li><a href="/product" class="px-4 py-2 hover:text-gray-400 text-2xl">Product
+				<li><a href="/form" class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Form</a></li>
+				<li><a href="/tribute"
+							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Tribute
+				</a></li>
+				<li><a href="/product" class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Product
 				</a></li>
 
 			</ul>

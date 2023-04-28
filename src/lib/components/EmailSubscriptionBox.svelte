@@ -7,7 +7,7 @@
 	<div class='bg-zinc-800 p-2 mx-6 rounded-2xl emailBox'>
 		<div class='flex flex-col md:flex-row rounded-l-xl'>
 			<img src={subImg} alt='boat on a lake'
-					 class='object-fit rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />
+					 class='object-fit object-cover rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />
 			<div class='p-6 md:p-12'>
 				<h2
 					class='font-serif text-xl font-medium text-center text-white md:text-left'> Receive 99% discounts on gold bars</h2>
@@ -26,20 +26,34 @@
 </section>
 
 <style>
-	section {
-			background-color: #0C1115;
-	}
-	.emailBox {
-			background-color: #F3F4F5;
-	}
-	h2, p {
-			color: #0C1115;
-	}
-	button {
-			background-color: #EA3F45;
-			color: #F3F4F5;
-	}
-	button:hover {
-      background-color: #C4393CFF;
-	}
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
+		section {
+				background-color: #0C1115;
+		}
+		.emailBox {
+				background-color: #F3F4F5;
+		}
+		h2, p {
+				color: #0C1115;
+		}
+		h2 {
+				font-family: 'Skranji', cursive;
+		}
+		p, input, button {
+				font-family: 'Hind Madurai', sans-serif;
+		}
+		button {
+				background-color: #EA3F45;
+				color: #F3F4F5;
+		}
+		button:hover {
+				background-color: #C4393CFF;
+		}
+		input {
+        transition: transform 0.5s cubic-bezier(0, 0.3, 0.5, 1);
+		}
+		input:focus {
+				transform: scale(1.1);
+		}
+
 </style>
