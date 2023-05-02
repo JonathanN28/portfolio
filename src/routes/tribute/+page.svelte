@@ -36,7 +36,8 @@
 	</blockquote>
 
 
-	<p>For more information, see <a id='tribute-link' rel='noreferrer'
+	<p class='moreInfo'>For more information, see <a id='tribute-link'
+																							 rel='noreferrer'
 										href='https://en.wikipedia.org/wiki/Marcel_Marceau'
 		 target='_blank'>Marcel Marceau's biography on Wikipedia</a></p>
 </div>
@@ -146,14 +147,15 @@
     .virtual-body {
         background-color: #235789;
     }
-    h1, figcaption, p {
+		figcaption, p {
         color: #0c1115;
-    }
-		p:last-child {
+		}
+		.moreInfo {
 				color: #F3F4F5;
 		}
 		h1 {
-        background-color: #F3F4F5;
+        background-color: #235789;
+        color: #F3F4F5
 		}
     figure {
         background-color: #F3F4F5;

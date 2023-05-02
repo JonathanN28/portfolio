@@ -3,6 +3,7 @@
 	import src2 from "$lib/assets/Jonathan2.png";
 	import src3 from "$lib/assets/Jonathan3.png";
 	import src4 from "$lib/assets/Jonathan4.png";
+	import src5 from "$lib/assets/Jonathan5.png";
 </script>
 
 <header
@@ -11,7 +12,7 @@
 		class="container flex items-center justify-center py-4 gap-x-8">
 		<a href="/">
 			<!-- Add svg image -->
-			<img src={src2} alt="Logo" class="max-h-12" />
+			<img src={src5} alt="Logo" class="max-h-12" />
 		</a>
 		<nav>
 			<ul class="flex items-center justify-center gap-x-2">
