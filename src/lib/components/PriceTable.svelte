@@ -1,17 +1,17 @@
-<div class='w-full h-full bg-sky-400 pt-10'>
+<div class='base'>
 	<h1 class='text-5xl text-center mb-10'>Pricing</h1>
 
 	<div class='flex justify-center gap-x-6'>
-		<div id='1' class='bg-amber-100 max-w-2xl max-h-full'>
-			<h2 class='text-4xl'> Water gold</h2>
-			<p class='text-center'>Every 3 Months</p>
-			<p>$100</p>
+		<div id='1' class='standard'>
+			<h2 class=''> Standard</h2>
+			<h3>3000 Valorant Points</h3>
+			<h3>$27 / 3 months</h3>
 			<hr>
 			<ul>
-				<li>&check; A gold bar every month</li>
-				<li>&</li>
-				<li>Unlimited</li>
-				<li>Can only apply a discount on purchase or renewal</li>
+				<li>Receive 1000vp every month</li>
+				<li>Player banners and key-chain buddies</li>
+				<li>Radianite</li>
+				<li>Access to players' statistical data</li>
 			</ul>
 		</div>
 		<div id='2' class='bg-cyan-300 p-10'>
@@ -24,8 +24,23 @@
 </div>
 
 <style>
-
+		.base {
+				background-color: #F3F4F5;
+				@apply w-full h-full pt-10;
+    }
+		.standard {
+				@apply bg-amber-100 max-w-2xl max-h-full p-5;
+		}
+		h2 {
+				@apply text-4xl text-center;
+		}
+		hr {
+				@apply mt-4 mb-4 border-0 bg-black h-1 w-3/4 mx-auto;
+		}
+		h3 {
+				@apply text-xl text-center;
+		}
 		ul {
-				@apply list-inside text-center;
+				@apply list-inside text-center list-disc;
 		}
 </style>
