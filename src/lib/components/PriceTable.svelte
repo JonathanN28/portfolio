@@ -13,6 +13,7 @@
 				<li>Radianite</li>
 				<li>Access to players' statistical data</li>
 			</ul>
+			<button>Select</button>
 		</div>
 		<div id='2' class='bg-cyan-300 p-10'>
 			<p>Every Year</p>
@@ -29,18 +30,38 @@
 				@apply w-full h-full pt-10;
     }
 		.standard {
-				@apply bg-amber-100 max-w-2xl max-h-full p-5;
+				background-color: #0C1115;
+				@apply max-w-2xl max-h-full p-5;
 		}
 		h2 {
+        color: #F3F4F5;
 				@apply text-4xl text-center;
 		}
 		hr {
-				@apply mt-4 mb-4 border-0 bg-black h-1 w-3/4 mx-auto;
+				@apply mt-4 mb-4 border-0 bg-black h-1 w-3/4 mx-auto rounded-full;
 		}
 		h3 {
-				@apply text-xl text-center;
+        color: #F3F4F5;
+				@apply text-xl text-center mt-3;
 		}
 		ul {
-				@apply list-inside text-center list-disc;
+				@apply list-inside text-center list-none;
+		}
+		ul li::before {
+				content: "\2610";
+				color: greenyellow;
+				background-color: greenyellow;
+				display: inline-block;
+				width: 1em;
+				@apply mr-5 rounded-2xl;
+		}
+		li {
+        color: #F3F4F5;
+				@apply m-3;
+		}
+		button {
+        background-color: #EA3F45;
+        color: #F3F4F5;
+				@apply px-32 py-3 rounded-2xl mt-5 mx-auto;
 		}
 </style>
