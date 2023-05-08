@@ -18,7 +18,7 @@
 					<input type='text' placeholder='Enter your email address'
 								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none transform focus:rounded-xl duration-200'/>
 					<button
-						class='px-5 py-3 text-xs rounded-b-xl md:rounded-r-xl md:rounded-l-none text-zinc-800 bg-lime-500 transform hover:scale-105 hover:rounded-xl hover:bg-lime-700 hover:text-white duration-500'> Sign up</button>
+						class='px-5 py-3 text-xs rounded-b-xl md:rounded-r-xl md:rounded-l-none transform hover:scale-105 hover:rounded-xl hover:text-white duration-500'> Sign up</button>
 				</div>
 			</div>
 		</div>

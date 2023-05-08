@@ -1,8 +1,8 @@
 <script>
 	let bgImage = 'https://mdbcdn.b-cdn.net/img/new/slides/146.webp';
-	export let title = 'The portfolio';
-	export let subtitle = 'title';
-	export let buttonText = 'Valorant';
+	export let title = 'Default';
+	export let subtitle = 'Default';
+	export let buttonText = 'Default';
 </script>
 
 <section class="mb-40">
@@ -21,7 +21,7 @@
 					</h1>
 					<button
 						type="button"
-						class="inline-block px-7 py-3 border-2 border-white text-white font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+						class="inline-block px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded hover:bg-opacity-25 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
 					>
 						{buttonText}
 					</button>
@@ -30,3 +30,21 @@
 		</div>
 	</div>
 </section>
+
+<style>
+		h1 {
+				color: #F3F4F5;
+		}
+		span {
+        color: #EA3F45;
+		}
+		button {
+				background-color: #EA3F45;
+				color: #F3F4F5;
+		}
+		button:hover {
+				background-color: #9d2c30;
+		}
+
+
+</style>

@@ -2,13 +2,12 @@
 	export let title = 'default';
 	export let subtitle = 'default';
 	export let buttonText1 = 'default';
-	export let buttonText2 = 'oijdwijwia';
 </script>
 <!-- Container for demo purpose -->
 <div>
 
 	<!-- Section: Design Block -->
-	<section class="mb-40">
+	<section class="">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -92,17 +91,15 @@
 			</g>
 		</svg>
 
-		<div class="container mx-auto px-6 md:px-12 xl:px-32">
-			<div class="text-center text-gray-800 py-6">
+		<div class="container mx-auto px-6 md:px-12 xl:px-32 py-6">
+			<div class="backgrounds text-center text-gray-800 rounded-full">
 				<div
-					class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
-					style="margin-top: 180px; background-color: hsla(0, 0%, 100%, 0.8);backdrop-filter: saturate(200%) blur(25px);">
+					class="block rounded-full shadow-lg px-6 py-12 md:py-16 md:px-12"
+					style="background-color: hsla(0, 0%, 100%, 0.8);backdrop-filter: saturate(200%) blur(25px);">
 					<h1
-						class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">{title} <br /><span class="text-blue-600">{subtitle}</span></h1>
+						class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">{title} <br /><span class="inline-block text-blue-600">{subtitle}</span></h1>
 					<a
-						class="inline-block px-7 py-3 mb-2 md:mb-0 mr-0 md:mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">{buttonText1}</a>
-					<a
-						class="inline-block px-7 py-3 text-white font-medium text-sm leading-snug bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">{buttonText2}</a>
+						class="inline-block px-7 py-3 mb-2 md:mb-0 mr-0 md:mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="button">{buttonText1}</a>
 				</div>
 			</div>
 		</div>
@@ -111,3 +108,24 @@
 
 </div>
 <!-- Container for demo purpose -->
+
+<style>
+		.backgrounds {
+				background-color: #F3F4F5;
+		}
+		h1 {
+				color: #0C1115;
+		}
+		span {
+				background-color: #235789;
+        color: #F3F4F5;
+				@apply px-10 mt-3 py-3 align-middle rounded-full;
+		}
+    a {
+        background-color: #EA3F45;
+        color: #F3F4F5;
+    }
+		a:hover {
+        background-color: #9d2c30;
+		}
+</style>
