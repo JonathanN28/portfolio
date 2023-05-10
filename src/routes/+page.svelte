@@ -12,5 +12,6 @@ buttonText="Download" />
 <HeroTextButton title='doapodwoajwpo' subtitle='Free money'
 								buttonText1='213'/>
 
-<HeroSideImageButton title='dwdwqw' subtitle='f' buttonText1='View pricing'
+<HeroSideImageButton title='dwdwqw' subtitle='fjeijeses'
+										 buttonText1='View pricing'
 										 imageUrl='https://mdbootstrap.com/img/new/ecommerce/horizontal/048.jpg'/>

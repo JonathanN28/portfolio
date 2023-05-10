@@ -59,7 +59,7 @@
 				color: #F3F4F5;
 		}
 		span {
-				color: #235789;
+				color: #EA3F45;
 		}
     a {
         background-color: #EA3F45;
