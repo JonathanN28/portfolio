@@ -67,6 +67,6 @@
 
 <style>
 	section {
-		background-color: #0C1115;
+		background-color: #F3F4F5;
 	}
 </style>

@@ -4,7 +4,7 @@
 
 <section
 	class='flex items-center justify-center h-full p-10 bg-zinc-700 ml-auto mr-auto'>
-	<div class='bg-zinc-800 p-2 mx-6 rounded-2xl emailBox borderoutset'>
+	<div class='bg-zinc-800 p-2 mx-6 emailBox borderoutset'>
 		<div class='flex flex-col md:flex-row rounded-l-xl'>
 			<img src={subImg} alt='boat on a lake'
 					 class='object-fit object-cover rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />

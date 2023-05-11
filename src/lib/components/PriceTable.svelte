@@ -31,9 +31,9 @@
 md:space-x-6 md:flex-row md:my-0"
 	>
 		<!-- Col 1 -->
-		<div class='bg-slate-700 rounded-xl text-white color3borderBorder'>
+		<div class='bg-slate-700 text-white color3borderBorder'>
 			<!-- Upper Container -->
-			<div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
 				<div class="text-center uppercase">{package1}</div>
 				<h2 class="mt-10 font-serif text-5xl
 
@@ -57,7 +57,7 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 			<div class='border-t border-slate-700 color3borderBorder'></div>
 
 			<!-- Lower Container -->
-			<div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mb-3 bg-slate-800 color2box">
 				<!-- List Container -->
 				<div class="flex flex-col space-y-2">
 					<!-- List Item 1 -->
@@ -129,9 +129,9 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 		</div>
 
 		<!-- Col 2 -->
-		<div class="bg-violet-600 rounded-xl text-white color3borderbutton">
+		<div class="bg-violet-600 text-white color3borderbutton">
 			<!-- Upper Container -->
-			<div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
 				<div class="text-center uppercase">{package2}</div>
 				<h2 class="mt-10 font-serif text-5xl
 
@@ -155,7 +155,7 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 
 			<!-- Lower Container -->
 
-			<div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mb-3 bg-slate-800 color2box">
 				<!-- List Container -->
 				<div class="flex flex-col space-y-2">
 					<!-- List Item 1 -->
@@ -227,9 +227,10 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 		</div>
 
 		<!-- Col 3 -->
-		<div class="bg-slate-700 rounded-xl text-white">
+		<div
+			class="bg-slate-700 text-white color3borderBorder">
 			<!-- Upper Container -->
-			<div class="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
 				<div class="text-center uppercase">{package3}</div>
 				<h2 class="mt-10 font-serif text-5xl text-center">{product3}</h2>
 
@@ -248,10 +249,10 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 			</div>
 
 			<!-- Border -->
-			<div class="border-t border-slate-700"></div>
+			<div class="border-t border-slate-700 color3borderBorder"></div>
 
 			<!-- Lower Container -->
-			<div class="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800 color2box">
+			<div class="p-8 mx-3 mb-3 bg-slate-800 color2box">
 				<!-- List Container -->
 
 				<div class="flex flex-col space-y-2">
@@ -325,28 +326,34 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 	</div>
 </div>
 <style>
-	.color1 {
-			background-color: #235789;
-	}
-	.color2box {
-			background-color: #F3F4F5;
-	}
-	.color3borderBorder {
-      background-color: #801f21;
-      border-color: #801f21;
-	}
-	.color3borderbutton {
-			background-color: #EA3F45;
-			border-color: #EA3F45;
-	}
-	p, h2, h3, div {
-			color: #0C1115;
-	}
-  a {
-      background-color: #EA3F45;
-      color: #F3F4F5;
-  }
-  a:hover {
-      background-color: #9d2c30;
-  }
+		@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
+		.color1 {
+				background-color: #235789;
+		}
+		.color2box {
+				background-color: #F3F4F5;
+		}
+		.color3borderBorder {
+				background-color: #801f21;
+				border-color: #801f21;
+
+		}
+		.color3borderbutton {
+				background-color: #EA3F45;
+        border-color: #EA3F45;
+		}
+		h3, div {
+				color: #0C1115;
+				font-family: 'Hind Madurai', sans-serif;
+		}
+		h2 {
+				font-family: 'Skranji', cursive;
+		}
+		a {
+				background-color: #EA3F45;
+				color: #F3F4F5;
+		}
+		a:hover {
+				background-color: #9d2c30;
+		}
 </style>

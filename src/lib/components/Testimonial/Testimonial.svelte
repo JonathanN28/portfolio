@@ -13,7 +13,7 @@
 
 <!--testimonial card styled with tailwind with shadow-->
 <div class='w-full p-2'>
-	<div class='robux rounded-lg shadow-lg p-4'>
+	<div class='robux shadow-lg p-4'>
 		<div class='flex flex-col md:flex-row'>
 			<div class='md:w-1/3'>
 				<img alt='company logo'
@@ -29,10 +29,13 @@
 	</div>
 </div>
 <style>
-	.robux {
-			background-color: #F3F4F5;
-	}
-	p {
-			color: #0C1115;
-	}
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
+		.robux {
+				background-color: #235789;
+				/*border: 10px outset #ea3f45;*/
+		}
+		p {
+				color: #0c1115;
+				font-family: 'Hind Madurai', sans-serif;
+		}
 </style>
