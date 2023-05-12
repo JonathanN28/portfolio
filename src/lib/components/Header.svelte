@@ -25,6 +25,9 @@
 				</a></li>
 				<li><a href="/product" class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Product
 				</a></li>
+				<li><a href="/sales"
+							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Sales
+				</a></li>
 
 			</ul>
 		</nav>

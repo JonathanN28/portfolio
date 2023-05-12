@@ -20,11 +20,11 @@
 	let price3 = '$29.99 / Monthly';
 	let buttonText3 = 'Select';
 	let item7 = 'Standard package\'s perks & Night Market\'s dates';
-	let item8 = '175 Radianite points';
+	let item8 = '175 Radianite points only';
 	let item9 = 'Night Market includes discounted bundles';
 </script>
 <!-- Global Container -->
-<div class="flex items-center justify-center min-h-screen color1">
+<div id='pricing' class="flex items-center justify-center min-h-screen color1">
 	<!-- Inner Container -->
 	<div
 		class="flex flex-col my-6 space-y-6 md:space-y-0
@@ -328,10 +328,10 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 <style>
 		@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		.color1 {
-				background-color: #235789;
+				background-color: #F3F4F5;
 		}
 		.color2box {
-				background-color: #F3F4F5;
+				background-color: #a11e22;
 		}
 		.color3borderBorder {
 				background-color: #801f21;
@@ -343,11 +343,12 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
         border-color: #EA3F45;
 		}
 		h3, div {
-				color: #0C1115;
+				color: #F3F4F5;
 				font-family: 'Hind Madurai', sans-serif;
 		}
 		h2 {
-				font-family: 'Skranji', cursive;
+        color: #F3F4F5;
+				font-family: "Hind Madurai", sans-serif;
 		}
 		a {
 				background-color: #EA3F45;

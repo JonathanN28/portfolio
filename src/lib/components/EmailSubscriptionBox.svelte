@@ -28,6 +28,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		section {
+				height: auto;
 				background-color: #235789;
 		}
 		.emailBox {

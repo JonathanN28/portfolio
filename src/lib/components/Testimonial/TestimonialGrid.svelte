@@ -6,67 +6,52 @@
 <section class='bg-neutral-100 w-full flex place-content-center py-10'>
 	<div class='grid grid-cols-3 gap-4 w-3/4'>
 		<Testimonial
-			company='Company'
+			company='Riot Games'
 			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Quote Placeholder'
+			name='David Apples'
+			quote='By far the best place to receive affordable and official in-game currency for Valorant.'
+			role='Intern'
+		/>
+		<Testimonial
+			company='Roblox'
+			logo='https://picsum.photos/200/300'
+			name='David Baszucki'
+			quote='We would always come back to this pricing model and become inspired by it so that our customers are appreciative.'
 			role='CEO'
 		/>
 		<Testimonial
-			company='Company'
+			company='Minecraft'
 			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eu
-  odio rutrum aliquam. Nullam eget massa euismod, ullamcorper massa quis,
-  ultricies quam. Sed ac libero eu odio rutrum aliquam. Nullam eget massa
-  euismod, ullamcorper massa quis, ultricies quam.'
-			role='CEO'
+			name='Notch'
+			quote='When I first hopped on Valorant, I kept on getting destroyed by enemy players. I wanted a skin, but the official Valorant store had inflated prices. This is the best offer I ever seen.'
+			role='Former CEO'
 		/>
 		<Testimonial
-			company='Company'
+			company='Hypixel'
 			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eu
-  odio rutrum aliquam. Nullam eget massa euismod, ullamcorper massa quis,
-  ultricies quam. Sed ac libero eu odio rutrum aliquam. Nullam eget massa
-  euismod, ullamcorper massa quis, ultricies quam.'
-			role='CEO'
+			name='Bob Bob'
+			quote='Ever since this dropped, I been getting aces every match with the basic package. I can see how well I am doing.'
+			role='Patreon Supporter'
 		/>
 		<Testimonial
-			company='Company'
+			company='Valve'
 			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eu
-  odio rutrum aliquam. Nullam eget massa euismod, ullamcorper massa quis,
-  ultricies quam. Sed ac libero eu odio rutrum aliquam. Nullam eget massa
-  euismod, ullamcorper massa quis, ultricies quam.'
-			role='CEO'
+			name='Bob Apples'
+			quote='What makes this so awesome is that it is official. As a bonus, you get Radianite that is half the original cost.'
+			role='Beta Tester'
 		/>
 		<Testimonial
-			company='Company'
+			company='Apple'
 			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eu
-  odio rutrum aliquam. Nullam eget massa euismod, ullamcorper massa quis,
-  ultricies quam. Sed ac libero eu odio rutrum aliquam. Nullam eget massa
-  euismod, ullamcorper massa quis, ultricies quam.'
-			role='CEO'
-		/>
-		<Testimonial
-			company='Company'
-			logo='https://picsum.photos/200/300'
-			name='John Doe'
-			quote='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eu
-  odio rutrum aliquam. Nullam eget massa euismod, ullamcorper massa quis,
-  ultricies quam. Sed ac libero eu odio rutrum aliquam. Nullam eget massa
-  euismod, ullamcorper massa quis, ultricies quam.'
-			role='CEO'
+			name='John Adams'
+			quote='The standard package is the best right now as it contains everything you really need as a player of Valorant.'
+			role='Customer Support'
 		/>
 	</div>
 </section>
 
 <style>
 	section {
-		background-color: #F3F4F5;
+		background-color: #235789;
 	}
 </style>

@@ -31,8 +31,8 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		.robux {
-				background-color: #235789;
-				/*border: 10px outset #ea3f45;*/
+				background-color: #F3F4F5;
+				border: 10px outset #ea3f45;
 		}
 		p {
 				color: #0c1115;
