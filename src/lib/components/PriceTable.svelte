@@ -46,7 +46,7 @@ text-center">{product1}</h2>
 						class='inline-block px-10 py-3 my-6 text-center
 
 border border-violet-600 rounded-lg duration-200
-hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
+hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
 
 					>{buttonText1}</a
 					>
@@ -143,7 +143,7 @@ text-center">{product2}</h2>
 						href="#"
 						class='inline-block px-10 py-3 my-6 text-center
 border border-violet-600 rounded-lg duration-200 bg-violet-600
-hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
+hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
 
 					>{buttonText2}</a
 					>
@@ -241,7 +241,7 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
 						class='inline-block px-10 py-3 my-6 text-center
 
 border border-violet-600 rounded-lg duration-200
-hover:bg-violet-800 hover:border-violet-800 color3borderbutton'
+hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
 
 					>{buttonText3}</a
 					>

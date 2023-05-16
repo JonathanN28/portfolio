@@ -30,6 +30,11 @@
 		section {
 				height: auto;
 				background-color: #235789;
+				/*position: fixed;
+				top: 34rem;
+				bottom: 0rem;
+				left: 0rem;
+				right: 0rem;*/
 		}
 		.emailBox {
 				background-color: #F3F4F5;
