@@ -4,7 +4,7 @@
 
 
 <section class='bg-neutral-100 w-full flex place-content-center py-10'>
-	<div class='grid grid-cols-3 gap-4 w-3/4'>
+	<div class='grid md:grid-cols-3 gap-4 w-3/4'>
 		<Testimonial
 			company='Riot Games'
 			logo='https://picsum.photos/200/300'

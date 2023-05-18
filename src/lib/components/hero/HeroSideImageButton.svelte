@@ -34,9 +34,9 @@
 				<div class="grid lg:grid-cols-2 gap-12 flex items-center">
 					<div class="mt-12 lg:mt-0">
 						<h1
-							class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight">{title}<br /><span>{subtitle}</span></h1>
+							class="text-5xl font-bold tracking-tight">{title}<br /><span>{subtitle}</span></h1>
 						<a
-							class="inline-block px-7 py-3 mr-2 bg-gray-200 text-gray-700 font-medium text-sm leading-snug uppercase rounded-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#pricing" role="button">{buttonText1}</a>
+							class="inline-block px-7 py-3 mr-2 bg-gray-200 text-gray-700 font-medium text-sm leading-snug rounded-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#pricing" role="button">{buttonText1}</a>
 					</div>
 					<div class="mb-12 lg:mb-0">
 						<img
@@ -68,6 +68,7 @@
 				font-family: 'Hind Madurai', sans-serif;
         background-color: #EA3F45;
         color: #F3F4F5;
+				@apply px-10 py-3 my-6 text-xl;
     }
 		a:hover {
         background-color: #9d2c30;

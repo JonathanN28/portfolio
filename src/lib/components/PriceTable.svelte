@@ -34,12 +34,12 @@ md:space-x-6 md:flex-row md:my-0"
 		<div class='bg-slate-700 text-white color3borderBorder'>
 			<!-- Upper Container -->
 			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
-				<div class="text-center uppercase">{package1}</div>
+				<div class="text-center uppercase text-2xl">{package1}</div>
 				<h2 class="mt-10 font-serif text-5xl
 
 text-center">{product1}</h2>
 
-				<h3 class="mt-2 text-center">{price1}</h3>
+				<h3 class="mt-2 text-center text-2xl">{price1}</h3>
 				<div class="flex justify-center">
 					<a
 						href="#"
@@ -132,12 +132,12 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
 		<div class="bg-violet-600 text-white color3borderbutton">
 			<!-- Upper Container -->
 			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
-				<div class="text-center uppercase">{package2}</div>
+				<div class="text-center uppercase text-2xl">{package2}</div>
 				<h2 class="mt-10 font-serif text-5xl
 
 text-center">{product2}</h2>
 
-				<h3 class="mt-2 text-center">{price2}</h3>
+				<h3 class="mt-2 text-center text-2xl">{price2}</h3>
 				<div class="flex justify-center">
 					<a
 						href="#"
@@ -231,10 +231,10 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
 			class="bg-slate-700 text-white color3borderBorder">
 			<!-- Upper Container -->
 			<div class="p-8 mx-3 mt-3 bg-slate-800 color2box">
-				<div class="text-center uppercase">{package3}</div>
+				<div class="text-center uppercase text-2xl">{package3}</div>
 				<h2 class="mt-10 font-serif text-5xl text-center">{product3}</h2>
 
-				<h3 class="mt-2 text-center">{price3}</h3>
+				<h3 class="mt-2 text-center text-2xl">{price3}</h3>
 				<div class="flex justify-center">
 					<a
 						href="#"
@@ -350,9 +350,13 @@ hover:bg-violet-800 hover:border-violet-800 color3borderbutton border-0'
         color: #F3F4F5;
 				font-family: "Hind Madurai", sans-serif;
 		}
+		span {
+				@apply text-lg;
+		}
 		a {
 				background-color: #EA3F45;
 				color: #F3F4F5;
+				@apply text-xl;
 		}
 		a:hover {
 				background-color: #9d2c30;

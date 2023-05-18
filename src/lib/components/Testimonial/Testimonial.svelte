@@ -13,7 +13,7 @@
 
 <!--testimonial card styled with tailwind with shadow-->
 <div class='w-full p-2'>
-	<div class='robux shadow-lg p-4'>
+	<div class='robux p-4'>
 		<div class='flex flex-col md:flex-row'>
 			<div class='md:w-1/3'>
 				<img alt='company logo'
@@ -21,9 +21,9 @@
 						 src={logo} />
 			</div>
 			<div class='md:w-2/3'>
-				<p class='leading-tight text-justify'>{quote}</p>
-				<p class='text-right mt-2'>{name}</p>
-				<p class='text-right'>{role} at {company}</p>
+				<p class='leading-tight text-justify text-2xl'>{quote}</p>
+				<p class='text-right mt-2 text-2xl'>{name}</p>
+				<p class='text-right text-2xl'>{role} at {company}</p>
 			</div>
 		</div>
 	</div>

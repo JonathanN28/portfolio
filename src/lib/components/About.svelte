@@ -1,4 +1,4 @@
-<div class='w-full'>
+<div class='w-full md:px-96 px-10'>
 	<h2>Our Company</h2>
 	<p>George Washington first founded the company in 2020. At first it was a
 		 studio to make video games like Table Tennis: Revolution or Valient
@@ -18,7 +18,8 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		div {
-				@apply py-10 px-96;
+				background-color: #F3F4F5;
+				@apply py-10;
 		}
 		h2 {
 				font-family: 'Hind Madurai', sans-serif;
@@ -27,5 +28,8 @@
 		p {
         font-family: 'Hind Madurai', sans-serif;
 				@apply py-2 text-2xl text-center;
+		}
+		h2, p {
+				color: #0C1115;
 		}
 </style>

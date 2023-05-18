@@ -8,15 +8,15 @@
 		<div class='flex flex-col md:flex-row rounded-l-xl'>
 			<img src={subImg} alt='boat on a lake'
 					 class='object-fit object-cover rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />
-			<div class='p-6 md:p-12'>
+			<div class='py-4 px-2 md:p-4'>
 				<h2
-					class='font-serif text-xl font-medium text-center text-white md:text-left'> Receive 99% discounts on gold bars</h2>
+					class='font-serif text-xl font-medium text-center text-white md:text-left'>Receive 20 VP for free</h2>
 				<p
-					class='max-w-xs leading-5 tracking-wide text-center text-white md:text-left'> Obtain daily coupon codes from 0 to 100% discount for purchasing gold bars. Sign up with your email.</p>
+					class='max-w-lg leading-5 tracking-wide text-center text-white md:text-left'> Each of our emails contain an image tracker and everytime you open each new email, you receive the free 20 VP.</p>
 				<div
 					class='flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0'>
 					<input type='text' placeholder='Enter your email address'
-								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xs placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none transform focus:rounded-xl duration-200'/>
+								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xl placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none transform focus:rounded-xl duration-200'/>
 					<button
 						class='px-5 py-3 text-xs rounded-b-xl md:rounded-r-xl md:rounded-l-none transform hover:scale-105 hover:rounded-xl hover:text-white duration-500'> Sign up</button>
 				</div>
@@ -44,13 +44,16 @@
 		}
 		h2 {
 				font-family: 'Hind Madurai', sans-serif;
+				@apply text-3xl;
 		}
 		p, input, button {
 				font-family: 'Hind Madurai', sans-serif;
+				@apply text-2xl;
 		}
 		button {
 				background-color: #EA3F45;
 				color: #F3F4F5;
+				@apply text-xl;
 		}
 		button:hover {
 				background-color: #C4393CFF;
@@ -59,7 +62,7 @@
         transition: transform 0.5s cubic-bezier(0, 0.3, 0.5, 1);
 		}
 		input:focus {
-				transform: scale(1.1);
+				transform: scale(1.05);
 
 		}
 		.borderoutset {

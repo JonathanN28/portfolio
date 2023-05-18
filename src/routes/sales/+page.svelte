@@ -13,7 +13,7 @@
 										 subtitle='Valorant Points' buttonText1='Pricing'
 										 imageUrl='https://images3.alphacoders.com/114/1149399.png'/>
 
-<section>
+<section class='md:px-96 px-10'>
 	<h2>Valorant</h2>
 	<p>Since the release of Valorant in 2020, the in-game store has been
 		 providing animated and static bundles for the community. Each
@@ -52,7 +52,7 @@
 						 logo='https://picsum.photos/200/300'/>
 </div>
 <PriceTable/>
-<section>
+<section class='md:-mt-44 md:px-96 px-10'>
 	<p>The basic and standard
 		 are geared towards casual players, and it gives access to reverting skin
 		 upgrades and public gameplay statistics. The premium is
@@ -69,15 +69,21 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
+		@media (min-width: 768px)
+    {
+				div {
+            padding-left: 40rem;
+            padding-right: 40rem;
+				}
+		}
 		div {
 				background-color: #235789;
-				padding-left: 40rem;
-				padding-right: 40rem;
-				@apply py-20 w-full;
+				@apply py-10 w-full;
 		}
 		section {
 				background-color: #F3F4F5;
-				@apply w-full px-96 py-10;
+
+				@apply w-full py-10;
 		}
 		h2 {
 				color: #0C1115;
