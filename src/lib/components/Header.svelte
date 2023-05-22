@@ -15,7 +15,7 @@
 			<img src={src5} alt="Logo" class="max-h-12" />
 		</a>
 		<nav>
-			<ul class="flex items-center justify-center gap-x-2">
+			<ul class="flex items-center justify-center gap-x-2 flex-wrap">
 				<li><a href="/"
 							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Home
 				</a></li>
@@ -29,6 +29,9 @@
 							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Sales
 				</a></li>
 
+				<li><a href="/storefront"
+							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Storefront
+				</a></li>
 			</ul>
 		</nav>
 	</div>
