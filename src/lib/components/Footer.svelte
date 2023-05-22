@@ -1,6 +1,7 @@
 <!--This is your footer-->
 <footer class='p-10 mt-auto max-w-full'>
-	<div class='container flex flex-row justify-center m-auto gap-x-0'>
+	<div
+		class='container flex flex-row justify-center m-auto gap-x-0 flex-wrap md:max-w-3xl'>
 		<div class='p-10 h-auto'>
 			<p class='text-center text-2xl'>jonathan nguyen's Portfolio</p>
 		</div>

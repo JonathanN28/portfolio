@@ -16,7 +16,7 @@
 				<div
 					class='flex flex-col mt-5 space-y-4 md:space-x-3 md:flex-row md:space-y-0'>
 					<input type='text' placeholder='Enter your email address'
-								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xl placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none transform focus:rounded-xl duration-200'/>
+								 class='p-2 px-4 text-center text-black bg-neutral-200 border border-zinc-600 placeholder:text-xl placeholder:text-center md:text-left placeholder:md:text-left focus:outline-none transform duration-200'/>
 					<button
 						class='px-5 py-3 text-xs rounded-b-xl md:rounded-r-xl md:rounded-l-none transform hover:scale-105 hover:rounded-xl hover:text-white duration-500'> Sign up</button>
 				</div>
@@ -63,6 +63,7 @@
 		}
 		input:focus {
 				transform: scale(1.05);
+        @apply rounded-xl;
 
 		}
 		.borderoutset {
