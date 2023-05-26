@@ -28,6 +28,7 @@
 				duration-150;
      }
     a:hover {
+				cursor: pointer;
         background-color: #9d2c30;
     }
 </style>

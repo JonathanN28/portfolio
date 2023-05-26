@@ -8,6 +8,7 @@ styles.-->
 	import Header from '$lib/components/Header.svelte';
 </script>
 
+
 <Header />
 
 <!--This is the main content on every page-->

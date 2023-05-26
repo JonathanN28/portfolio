@@ -41,7 +41,7 @@
 					<div class="mb-12 lg:mb-0">
 						<img
 							src={imageUrl}
-							class="w-full rounded-lg shadow-lg transform hover:scale-105 hover:rounded-xl duration-200"
+							class="w-full shadow-lg transform hover:scale-105 hover:rounded-xl duration-200"
 							alt=""
 						/>
 					</div>
