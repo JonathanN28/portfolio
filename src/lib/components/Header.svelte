@@ -24,7 +24,8 @@
 							 class="storefrontLink px-1 md:px-4 py-2 text-xl md:text-2xl">Home
 				</a></li>
 				<li><a href="/form"
-							 class="storefrontLink px-1 md:px-4 py-2 text-xl md:text-2xl">Form</a></li>
+							 class="storefrontLink px-1 md:px-4 py-2 text-xl md:text-2xl">
+					Form</a></li>
 				<li><a href="/tribute"
 							 class="storefrontLink px-1 md:px-4 py-2 text-xl md:text-2xl">Tribute
 				</a></li>
