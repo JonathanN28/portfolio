@@ -1,10 +1,9 @@
 <script>
 	export let buttonText;
-	export let px = 4;
-	export let py= 2;
+	export let customCSS = "";
 </script>
 
-<a class="px-{px} py-{py}">{buttonText}</a>
+<a class="px-4 py-2 {customCSS}">{buttonText}</a>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
@@ -17,5 +16,8 @@
 		a:hover {
 				background-color: #a22c30;
 				cursor: pointer;
+		}
+    .ciajdw {
+				background-color: #ea3f45;
 		}
 </style>

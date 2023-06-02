@@ -1,11 +1,11 @@
 <script>
 	import RedButton from "$lib/components/storefront/RedButton.svelte";
-	let Title = "Valorant";
-	let Description =
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-	let ButtonText = "";
-	let Caption = "";
-	let ImageURL = "https://99designs-blog.imgix.net/blog/wp-content/uploads/2016/08/featured.png?auto=format&q=60&w=2060&h=1158.75&fit=crop&crop=faces";
+	export let Title = "Valorant";
+	export let Description =
+		"Test";
+	export let ButtonText = "";
+	export let ImageURL = "";
+	export let LogoURL = "";
 	export let buttonText = "Default";
 </script>
 
@@ -18,14 +18,19 @@
 
 
 		<!-- Background for Image -->
-		<img class="" src={ImageURL} alt="">
+		<img class="image" src={ImageURL}
+				 alt="Valorant's Omen and Sage holding a Radiant-Entertainment-System Phantom.">
 
 
 		<!-- Background for description -->
 		<div class="content">
-			<h2>{Title}</h2>
+			<div class="logoInside">
+				<img class="logo" src={LogoURL}>
+			</div>
+			<h2 class="mb-2">{Title}</h2>
 			<p>{Description}</p>
-			<RedButton buttonText={buttonText}/>
+			<RedButton customCSS="mt-6"
+								 buttonText={ButtonText}/>
 		</div>
 
 
@@ -33,6 +38,7 @@
 </div>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		.main {
 				background-color: #F3F4F5;
 				@apply min-h-screen pt-10;
@@ -41,12 +47,30 @@
 				border-radius: 8rem;
 				@apply w-2/3 mx-auto overflow-hidden;
 		}
-		img {
-				@apply w-1/2 h-96 object-cover;
+		.image {
+				@apply w-1/2 object-cover;
+		}
+		.logoInside {
+				vertical-align: middle;
+				@apply inline-block bg-white w-12 h-12 mr-2 rounded-2xl overflow-hidden;
+		}
+		.logo {
+				@apply object-cover w-full h-full;
 		}
 		.content {
 				color: #F3F4F5;
 				background-color: #0c1115;
-				@apply inline h-96 px-10 py-20;
+				@apply inline px-10 py-10;
 		}
+		h2 {
+				vertical-align: middle;
+				font-family: 'Skranji', cursive;
+				color: #FD4556;
+				@apply inline text-4xl;
+		}
+		p	{
+				font-family: 'Hind Madurai', sans-serif;
+				@apply text-2xl;
+		}
+
 </style>
