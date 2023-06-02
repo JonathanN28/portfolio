@@ -8,5 +8,5 @@
 			You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities.
 			And, with one life per-round, you'll need to think faster than your opponent if you want to survive.
 			Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush."
-			ButtonText='Get for Free'
+			ButtonText='Add to Library'
 			ImageURL="https://cdn1.epicgames.com/offer/cbd5b3d310a54b12bf3fe8c41994174f/valwide_2560x1440-99f1632f76e12ddc17d4245a74f29fc5" />
