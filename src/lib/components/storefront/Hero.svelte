@@ -6,7 +6,6 @@
 	export let ButtonText = "";
 	export let ImageURL = "";
 	export let LogoURL = "";
-	export let buttonText = "Default";
 </script>
 
 <!-- Background -->
@@ -41,7 +40,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
 		.main {
 				background-color: #F3F4F5;
-				@apply min-h-screen pt-10;
+				@apply py-10;
 		}
 		.inside {
 				border-radius: 8rem;
@@ -52,7 +51,8 @@
 		}
 		.logoInside {
 				vertical-align: middle;
-				@apply inline-block bg-white w-12 h-12 mr-2 rounded-2xl overflow-hidden;
+				@apply inline-block bg-white w-12 h-12 mr-2 rounded-2xl
+				overflow-hidden border-none;
 		}
 		.logo {
 				@apply object-cover w-full h-full;
