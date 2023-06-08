@@ -20,26 +20,36 @@
 	}
 </script>
 {#if Name === "Me"}
-{:else}
-{/if}
-<div class="{customCSS} main flex justify-center">
-	<img src={ImageURL}>
-	<div class="content">
-		<h1>{Title}</h1>
-		<p>{Description}</p>
+	<div class="{customCSS} main flex justify-center">
+		<div class="content">
+			<h1>{Title}</h1>
+			<p>{Description}</p>
+		</div>
 	</div>
-</div>
+{:else}
+	<div class="{customCSS} main flex justify-center">
+		<img src={ImageURL}>
+		<div class="content">
+			<h1>{Title}</h1>
+			<p>{Description}</p>
+		</div>
+	</div>
+{/if}
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
     .main {
-				@apply py-40 overflow-hidden;
+				@apply w-full h-72 overflow-hidden;
 		}
 		img {
-				@apply object-cover;
+				position: relative;
+				filter: blur(14px);
+				@apply object-cover w-full h-full;
 		}
 		.content {
-				background-color: white;
+				position: absolute;
+				background-color: #F3F4F5;
+        border: 10px outset #ea3f45;
 		}
 		h1 {
 				font-family: 'Skranji', cursive;
