@@ -1,8 +1,8 @@
 <script>
-	import src from "$lib/assets/Jonathan.jpg";
+	/*import src from "$lib/assets/Jonathan.jpg";
 	import src2 from "$lib/assets/Jonathan2.png";
 	import src3 from "$lib/assets/Jonathan3.png";
-	import src4 from "$lib/assets/Jonathan4.png";
+	import src4 from "$lib/assets/Jonathan4.png";*/
 	import src5 from "$lib/assets/Jonathan5.png";
 	import { page } from '$app/stores';
 </script>
@@ -62,10 +62,8 @@
 				<li><a href="/tribute"
 							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Tribute
 				</a></li>
-				<li><a href="/product" class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Product
-				</a></li>
 				<li><a href="/sales"
-							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Sales
+							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Product
 				</a></li>
 				<li><a href="/storefront"
 							 class="px-1 md:px-4 py-2 hover:text-gray-400 text-xl md:text-2xl">Storefront
@@ -102,18 +100,15 @@
 		.storefrontLink {
 				@apply rounded-2xl;
 
-				transition: font-size, background-color;
+				transition: font-size;
 				@apply duration-200;
 		}
 		.storefrontLink:hover {
-				background-color: #ea3f45;
-
-				@apply text-3xl;
+        border-color: #ea3f45;
+				@apply text-3xl border-4;
 		}
     .storefrontLink2 {
         @apply rounded-2xl;
-
-        transition: font-size, background-color;
         @apply duration-200;
     }
 

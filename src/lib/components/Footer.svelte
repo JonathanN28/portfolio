@@ -8,7 +8,7 @@
 		<div class='p-10'>
 			<p class='text-center text-2xl'>&copy; 2023 Jonathan Nguyen</p>
 		</div>
-		<a>Contact</a>
+		<a href="/form">Contact</a>
 	</div>
 </footer>
 

@@ -1,12 +1,9 @@
-<script>
-	import subImg from '$lib/assets/kobby-mendez-UOl_IN96w0M-unsplash.jpg';
-</script>
 
 <section
 	class='flex items-center justify-center h-full p-10 bg-zinc-700 ml-auto mr-auto'>
 	<div class='bg-zinc-800 p-2 mx-6 emailBox borderoutset'>
 		<div class='flex flex-col md:flex-row rounded-l-xl'>
-			<img src={subImg} alt='boat on a lake'
+			<img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcbe0051f26663eed/5f498346185efb660c1cb59e/Website_banner.jpg" alt='boat on a lake'
 					 class='object-fit object-cover rounded-t-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200' />
 			<div class='py-4 px-2 md:p-4'>
 				<h2

@@ -29,7 +29,9 @@
 			<h2 class="mb-2">{Title}</h2>
 			<p>{Description}</p>
 			<RedButton customCSS="mt-6"
-								 buttonText={ButtonText}/>
+								 buttonText={ButtonText}
+								 Link="https://playvalorant.com/en-us/"
+			/>
 		</div>
 
 
