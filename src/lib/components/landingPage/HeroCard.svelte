@@ -1,8 +1,8 @@
 <script>
-	import Form from "$lib/assets/form.jpeg";
-	import Product from "$lib/assets/product.jpeg";
-	import Storefront from "$lib/assets/storefront.jpeg";
-	import Tribute from "$lib/assets/tribute.jpeg";
+	import Form from "$lib/assets/form.jpg";
+	import Product from "$lib/assets/product.jpg";
+	import Storefront from "$lib/assets/storefront.jpg";
+	import Tribute from "$lib/assets/tribute.jpg";
 	export let Name;
 	export let Title = "Hello World";
 	export let Description = "This is a description";
@@ -19,9 +19,12 @@
 		ImageURL = Tribute;
 	}
 </script>
-<div class="{customCSS}" style="background-image: url({ImageURL});">
-
-	<div>
+{#if Name === "Me"}
+{:else}
+{/if}
+<div class="{customCSS} main flex justify-center">
+	<img src={ImageURL}>
+	<div class="content">
 		<h1>{Title}</h1>
 		<p>{Description}</p>
 	</div>
@@ -29,8 +32,14 @@
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
-    div {
-				@apply py-40;
+    .main {
+				@apply py-40 overflow-hidden;
+		}
+		img {
+				@apply object-cover;
+		}
+		.content {
+				background-color: white;
 		}
 		h1 {
 				font-family: 'Skranji', cursive;
