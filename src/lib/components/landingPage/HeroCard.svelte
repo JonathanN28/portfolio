@@ -6,7 +6,8 @@
 	export let Name;
 	export let Title = "Hello World";
 	export let Description = "This is a description";
-	export let ImageURL = "";
+	let ImageURL = "";
+	export let Link = "";
 	export let customCSS;
 
 	if (Name === "Form") {
@@ -19,44 +20,47 @@
 		ImageURL = Tribute;
 	}
 </script>
-{#if Name === "Me"}
-	<div class="{customCSS} main flex justify-center">
-		<div class="content">
-			<h1>{Title}</h1>
-			<p>{Description}</p>
-		</div>
-	</div>
-{:else}
-	<div class="{customCSS} main flex justify-center">
+<a href={Link}>
+	<div class="{customCSS} main flex justify-center ">
 		<img src={ImageURL}>
 		<div class="content">
 			<h1>{Title}</h1>
 			<p>{Description}</p>
 		</div>
 	</div>
-{/if}
-
+</a>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Skranji:wght@700&display=swap');
     .main {
-				@apply w-full h-72 overflow-hidden;
+				cursor: pointer;
+				transition: height;
+				@apply w-full h-48 overflow-hidden duration-200;
+		}
+		.main:hover {
+				@apply h-96;
 		}
 		img {
 				position: relative;
 				filter: blur(14px);
 				@apply object-cover w-full h-full;
 		}
+		img:hover {
+				filter: blur(0px);
+		}
 		.content {
 				position: absolute;
+        color: #0C1115;
 				background-color: #F3F4F5;
-        border: 10px outset #ea3f45;
+				left:0;
+				right:0;
+				@apply px-4 py-2;
 		}
 		h1 {
 				font-family: 'Skranji', cursive;
-				@apply text-5xl;
+				@apply text-5xl text-center;
 		}
 		p {
 				font-family: 'Hind Madurai', sans-serif;
-				@apply text-2xl;
+				@apply text-2xl text-center;
 		}
 </style>
