@@ -1,5 +1,4 @@
 <script>
-	import Form from "$lib/assets/form.jpeg";
 	import HeroCard from "$lib/components/landingPage/HeroCard.svelte";
 </script>
 
